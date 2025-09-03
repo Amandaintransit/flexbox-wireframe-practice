@@ -1,0 +1,45 @@
+@import url("./reset.css");
+.flex-container{
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   align-items: stretch;
+   gap: 20px;
+   
+    
+}
+body{
+    
+    font-size: 50px;
+    background-color:gray;
+}
+.header{
+    border-radius: 15px;
+    background-color: purple;
+    color: white;
+}
+
+.article-container{
+    border-radius: 15px;
+    background-color: green;
+}
+.article{
+    margin: 25px;
+    background-color:red;
+    color: white;
+    border-radius: 15px;
+}
+.aside{
+    border-radius: 15px;
+    color: white;
+    background-color: blueviolet;
+}
+.footer{
+    border-radius: 15px;
+    color: white;
+    background-color: orange;
+}
