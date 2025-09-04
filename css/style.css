@@ -1,6 +1,6 @@
 @import url("./reset.css");
 .flex-container{
-    width: 50%;
+    
     margin: auto;
     padding: 50px;
     display: flex;
