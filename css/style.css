@@ -21,6 +21,7 @@ body{
     border-radius: 15px;
     background-color: purple;
     color: white;
+    text-align: center;
 }
 
 .article-container{
@@ -28,7 +29,7 @@ body{
     background-color: green;
 }
 .article{
-    margin: 25px;
+    margin: 15px;
     background-color:red;
     color: white;
     border-radius: 15px;
@@ -42,20 +43,19 @@ body{
     border-radius: 15px;
     color: white;
     background-color: orange;
+    text-align: center;
 }
 @media screen and (min-width: 481px){
-    .article-container {
-        order: 2;     
-    }
-    .footer{
-        order: 3
-    }
+   .flex-container{
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+   }
    .aside{
+    padding-top:100px;
+    width: 60%;
     
    }
-       
-    }
-         
-    }
-    
-    
+   .article-container{
+    width: 40%;
+   }
+}
